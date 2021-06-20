@@ -1,0 +1,124 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+#casa_image {
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+
+/*planes*/
+
+#planes div {
+    display: inline-block;
+    vertical-align: top;
+    width: 18em;
+    background-color: rgba(210, 209, 209, 1);
+    padding: 0.2em 1.3em;
+    margin: 2em 2em;
+    position: relative;
+    top: 0;
+    border-radius: 5px;
+}
+
+#planes div ul {
+    font-size: 0.8em;
+    list-style-position: outside;
+    line-height: 1.7em;
+    left: 50%;
+    margin-bottom: 3.2em;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+#planes h4 {
+    color: rgb(6, 157, 232);
+    width: 7em;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+#planes input[type="submit"] {
+    width: 6em;
+    border: 2px solid rgb(6, 157, 232);
+    color: rgb(6, 157, 232);
+}
+
+#planes p {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 620px){
+    html, body {
+        font-size: 16px;
+    }
+    p {
+        width: 75%;
+    }
+    #i_contratador img, #i_trabajador img, #informacion ul {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    form {
+        width: 15em;
+    }
+
+    #planes div {
+        display: block;
+        left: 50%;
+        position: relative;
+        transform: translateX(-50%);
+        margin: 2em 0;
+    }
+
+    footer p {
+        letter-spacing: 0.1em;
+    }
+    iframe {
+        max-width: 100%;
+        background-size: contain;
+        border: none;
+    }
+
+    #planes input[type="submit"] {
+        width: 10em;
+        font-size: 1.6em;
+        left: 50%;
+        margin-bottom: 0.5em;
+        position: relative;
+        transform: translateX(-50%);
+    }
+
+}
+
+/*#redes {
+    background-color: rgba(177, 177, 177, 1);
+}*/
+
+#redes img {
+    width: 4em;
+    padding: 3px;
+    position: center;
+
+}
+
+
+/* copyright*/
+footer {
+    background-color: rgba(61, 61, 61, 1);
+    border-top: 3px solid rgba(8, 120, 223, 1);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+}

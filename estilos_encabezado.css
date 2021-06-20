@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Century Gothic', sans-serif;
+}
+
+header h1{
+    width: 100%;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    background: #112d4e;
+    font-size: 60px;
+}
+
+nav ul{
+    background: #164884;
+    text-align: center;
+    list-style: none;
+
+}
+
+ul domi li{
+    display: inline-block;
+    padding: 20px;
+
+}
+
+ul li a:hover
+{
+    background: #112d4e;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    transition: all ease-in-out 320ms;
+
+}
+
+
+
